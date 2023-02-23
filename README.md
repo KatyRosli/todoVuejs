@@ -1,6 +1,19 @@
-# TodoVueJs
+## TodoVueJs :
 
-This template should help get you started developing with Vue 3 in Vite.
+- My very first project using: Vue Js with Vuetify UI framework.
+- (This is still work in progress).
+
+# Built with 🛠️:
+FRONTEND:
+- VueJs
+- Vuetify UI
+- JavaScript
+- HTML
+- CSS
+- Netlify
+
+# Live Demo:
+[Live Demo Link] (https://stunning-marshmallow-4184c1.netlify.app/)
 
 ## Recommended IDE Setup
 
@@ -27,3 +40,11 @@ npm run dev
 ```sh
 npm run build
 ```
+# Author:
+👩 **Katy Rosli**
+- GitHub: [@KatyRosli](https://github.com/KatyRosli)
+
+# Show your support:
+Give a ⭐️ if you like this project!
+
+Thank you!
