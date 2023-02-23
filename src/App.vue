@@ -1,18 +1,19 @@
 <template>
   <div id='app'>
-    <todo-app></todo-app>
+    <ToDoApp></ToDoApp>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import TodoApp from './components/TodoApp.vue'
+import ToDoApp from './components/TodoApp.vue';
+import Footer from './components/Footer.vue';
 
-export default {
-  name: 'App',
-  components: {
-    TodoApp
-  }
-}
-
+export default { components: { ToDoApp, Footer } }
 
 </script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+</style>

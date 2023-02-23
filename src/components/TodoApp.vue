@@ -1,20 +1,21 @@
 <template>
-  <div class='container'>
-    <h2>My Vue TodoApp</h2>
+    <h2 class="todo__title">My Vue TodoApp</h2>
 
-    <v-sheet width="300">
+    <v-sheet width="500" class="mx-auto">
     <v-form @submit.prevent>
       <v-text-field
         v-model="task"
         label="Enter Task Here"
+        class="todo__inputfield"
       ></v-text-field>
-      <v-btn @click="submitTask" block class="mt-2">SUBMIT</v-btn>
     </v-form>
+    <v-btn @click="submitTask" class="todo__submit">SUBMIT</v-btn>
   </v-sheet>
 
     <v-table
     fixed-header
     height="300px"
+    class="todo__list"
   >
     <thead>
       <tr>
@@ -50,7 +51,6 @@
       </tr>
     </tbody>
   </v-table>
-  </div>
 </template>
 
 <script>
@@ -114,6 +114,23 @@ export default {
 </script>
 
 <style scoped>
+.todo__title {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 56px 0 32px 0;
+  color: #1F2123;
+}
+
+.todo__submit {
+  background-color: #4CBE7A;
+  color: #1F2123;
+  justify-content: flex-end;
+}
+
+.todo__list {
+  padding: 24px 88px;
+}
 .pointer {
   cursor: pointer;
 }
