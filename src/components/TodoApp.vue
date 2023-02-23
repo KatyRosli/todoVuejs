@@ -6,7 +6,7 @@
     <v-form @submit.prevent>
       <v-text-field
         v-model="task"
-        label="Enter task"
+        label="Enter Task Here"
       ></v-text-field>
       <v-btn @click="submitTask" block class="mt-2">SUBMIT</v-btn>
     </v-form>
@@ -25,10 +25,10 @@
           Status
         </th>
         <th class="text-left">
-          na
+          Edit Task
         </th>
         <th class="text-left">
-          na
+          Delete Task
         </th>
       </tr>
     </thead>
